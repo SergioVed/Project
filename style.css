@@ -1,0 +1,342 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+}
+header{
+    background-image: url(./img/Rectangle\ 1.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 700px;
+}
+.content{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content_info{
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    font-family: 'Oswald', sans-serif;
+}
+.content_inf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+.content_partn{
+    width: 180px;
+    font-family: 'Oswald', sans-serif;
+}
+.content_main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 620px;
+}
+.content_main h2{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    height: 200px;
+    font-weight: 600;
+    font-size: 98px;
+    line-height: 145px;
+    display: flex;
+    align-items: center;
+    color: #FCFCFC;
+    position: absolute;
+    top: 170px;
+}
+.content_main_div{
+    position: absolute;
+    top: 360px;
+    box-sizing: border-box;
+    width: 170px;
+    height: 45px;
+    border: 2px solid #FCFCFC;
+}
+.content_main_div a{
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+.First_section{
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    height: 500px;
+}
+.Tyru{
+    display: flex;
+    align-items: center;
+}
+.Info_tyru{
+    width: 50%;
+}
+.Info_tyru h2{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 115%;
+}
+.Info_tyru p{
+    padding-top: 20px;
+    width: 330px;
+    height: 370px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+.Tyru_img{
+    position: absolute;
+    top: 837px;
+    left: 780px;
+    width: 1000px;
+    border: 2px solid black;
+}
+.Second_section{
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    height: 500px;
+}
+.Second_section h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 115%;
+    height: 100px;
+}
+.Popular_turs{
+    padding-top: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Turs{
+    height: 500px;
+    width: 500px;
+}
+.Background_img{
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    opacity: 0.7;
+}
+.Position_img{
+    position: absolute;
+    top: 1770px;
+    width: 18px;
+}
+.Position_img_first{
+    left: 180px;
+}
+.Position_img_second{
+    left: 750px;
+}
+.Position_img_third{
+    left: 1320px;
+}
+.Turs_info_first{
+    position: absolute;
+    top: 2075px;
+    left: 153px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 115%;
+}
+.Turs_info_second{
+    position: absolute;
+    top: 2075px;
+    left: 723px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 115%;
+}
+.Turs_info_third{
+    position: absolute;
+    top: 2075px;
+    left: 1290px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 115%;
+}
+.Turs h3{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 115%;
+    top: 2040px;
+}
+.Turs_first h3{
+    position: absolute;
+    left: 153px;
+}
+.Turs_second h3{
+    position: absolute;
+    left: 723px;
+}
+.Turs_third h3{
+    position: absolute;
+    left: 1290px;
+}
+.Fav_img{
+    width: 18px;
+    position: absolute;
+    top: 1770px;
+}
+.Fav_img_first{
+    left: 560px;
+}
+.Fav_img_second{
+    left: 1130px;
+}
+.Fav_img_third{
+    left: 1700px;
+}
+.Shit{
+    position: absolute;
+    top: 1770px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 115%;
+}
+.Shit_first{
+    left: 208px;
+}
+.Shit_second{
+    left: 780px;
+}
+.Shit_third{
+    left: 1352px;
+}
+.Turs_info_span_first{
+    width: 200px;
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+.Turs_info_span_second{
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+.Third_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    height: 550px;
+    background-image: url(./img/Rectangle\ 9\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.Table_info{
+    padding-top: 70px;
+    padding-bottom: 110px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+}
+.Table_info_first{
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.5px solid #fff;
+}
+.Table_info_second{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.5px solid #fff;
+}
+.Table_info_third{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.5px solid #fff;
+}
+.Table_info_fourth{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.5px solid #fff;
+}
+.Table_info_fifth{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.second_a_div{
+    border: 1px solid #fff;
+    width: 175px;
+}
+.second_a{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+}
+.Third_p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Third_p p{
+    padding-top: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+}
+.Third_section h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 115%;
+}
