@@ -95,7 +95,7 @@ header{
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 150%;
 }
 .Tyru_img{
@@ -375,11 +375,22 @@ header{
     width: 70%;
 }
 .Fourth_section_info_div{
+    display: flex;
+    flex-direction: column;
     height: 80px;
     width: 400px;
     border-bottom: 1px solid black;
     padding-bottom: 25px;
     padding-top: 25px;
+}
+.Fourth_section_info_div span{
+    padding-left: 10px;
+}
+.Fourth_section_info_div a{
+    text-decoration: none;
+    color: #000;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 .Fourth_section_divsecond img{
     width: 100%;
@@ -408,15 +419,15 @@ header{
     Line-height: 140%;
 }
 .Fourth_section_info_a{
-    position: absolute;
-    top: 3930px;
+    position: relative;
+    top: 40px;
     width: 400px;
     height: 50px;
     text-align: center;
     background-color: #EC5118;
 }
 .Fourth_section_info_a a{
-    position: absolute;
+    position: relative;
     top: 12px;
     left: 0px;
     width: 400px;
@@ -513,7 +524,7 @@ header{
     height: 20px;
     background-color: #061B28;
 }
-@media screen and (min-device-width: 380px) and (max-device-width: 430px) {
+@media screen and (min-device-width: 380px) and (max-device-width: 445px) {
     .content_main h2{
         font-family: 'Oswald', sans-serif;
         font-style: normal;
@@ -536,7 +547,7 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 500px;
+        width: 400px;
         font-family: 'Oswald', sans-serif;
     }
     .content_inf{
@@ -555,5 +566,247 @@ header{
     .content_main_div{
         position: absolute;
         top: 335px;
+    }
+    .Info_tyru h2{
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 115%;
+    }
+    .Info_tyru{
+        width: 400px;
+    }
+    .First_section{
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        height: 500px;
+    }
+    .Tyru_img{
+        position: absolute;
+        top: 1420px;
+        left: 20px;
+        width: 350px;
+        border: 2px solid black;
+    }
+    .Second_section{
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 250px;
+        padding-bottom: 120px;
+        height: 500px;
+    }
+    .Second_section h2{
+        text-align: center;
+        font-size:36px;
+        height: 50px;
+    }
+    .Popular_turs{
+        padding-top: 0px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+    }
+    .Turs{
+        height: 300px;
+        width: 350px;
+    }
+    .Background_img{
+        position: absolute;
+        height: 300px;
+        width: 350px;
+        opacity: 0.7;
+    }
+    .Turs_first h3{
+        position: relative;
+        top: 200px;
+        left: 10px;
+    }
+    .Turs_second h3{
+        position: relative;
+        top: 200px;
+        left: 10px;
+    }
+    .Turs_third h3{
+        position: relative;
+        top: 200px;
+        left: 10px;
+    }
+    .Position_img_first{
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .Position_img_second{
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .Position_img_third{
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .Shit_first {
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+    .Shit_second {
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+    .Shit_third {
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+    .Fav_img_first {
+        position: relative;
+        top: 18px;
+        left: 290px;
+    }
+    .Fav_img_second {
+        position: relative;
+        top: 18px;
+        left: 290px;
+    }
+    .Fav_img_third {
+        position: relative;
+        top: 18px;
+        left: 290px;
+    }
+    .Turs_info_first {
+        position: relative;
+        top: 205px;
+        left: 10px;
+    }
+    .Turs_info_second {
+        position: relative;
+        top: 205px;
+        left: 10px;
+    }
+    .Turs_info_third {
+        position: relative;
+        top: 205px;
+        left: 10px;
+    }
+    .Third_section{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 700px;
+        height: 500px;
+    }
+    .Table_info_first{
+        width: 350px;
+    }
+    .Table_info_first_height{
+        display: none;
+    }
+    .Table_info_first_level{
+        display: none;
+    }
+    .Table_info_information{
+        display: none;
+    }
+    .Table_info_second{
+        width: 350px;
+    }
+    .Table_info_third{
+        width: 350px;
+    }
+    .Table_info_fourth{
+        width: 350px;
+    }
+    .Table_info_fifth{
+        width: 350px;
+    }
+    .Table_info{
+        width: 350px;
+    }
+    .Fourth_section_h2{
+        font-size: 26px;
+    }
+    .Fourth_section_maindiv{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 50px;
+    }
+    .Fourth_section_divsecond{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .Fourth_section_divfirst{
+        width: 100%;
+        margin-right: 20px;
+    }
+    .Fourth_section_info_div {
+        width: 340px;
+    }
+    .Fourth_section_info_a {
+        width: 340px;
+    }
+    .Fifth_section{
+        padding-top: 1100px;
+        height: 800px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .Fifth_section_divsecond img{
+        display: none;
+    }
+    .Fifth_section_divfirst{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 100%;
+    }
+    .Fifth_section_divfirst_button{
+        position: relative;
+        margin-left: 0px;
+        top: -100px;
+        width: 320px;
+        height: 50px;
+    }
+    .Fifth_section_divfirst h2 {
+        padding-top: 70px;
+        padding-left: 0px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .Fifth_section_divfirst p {
+        padding-left: 0px;
+        padding-top: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .Fifth_section_input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-left: 0px;
+        margin-right: 0px;
+    }
+    .Fifth_section_input_all{
+        width: 300px;
+    }
+    .Fifth_section_divfirst_a{
+        display: flex;
+        justify-content: center;
+    }
+    .Fifth_section_divfirst_a a {
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .Fifth_section_divsecond{
+        display: none;
     }
 }
