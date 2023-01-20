@@ -6,7 +6,7 @@ header{
     background-image: url(./img/Rectangle\ 1.jpg);
     background-size: cover;
     color: #fff;
-    height: 700px;
+    height: 800px;
 }
 .content{
     padding-top: 30px;
@@ -25,6 +25,10 @@ header{
     justify-content: space-around;
     align-items: center;
     width: 500px;
+}
+.content_inf_a{
+    color: #fff;
+    text-decoration: none;
 }
 .content_partn{
     width: 180px;
@@ -46,19 +50,19 @@ header{
     display: flex;
     align-items: center;
     color: #FCFCFC;
-    position: absolute;
-    top: 170px;
+    position: relative;
+    top: 140px;
 }
 .content_main_div{
-    position: absolute;
-    top: 360px;
+    position: relative;
+    top: 110px;
     box-sizing: border-box;
     width: 170px;
     height: 45px;
     border: 2px solid #FCFCFC;
 }
 .content_main_div a{
-    position: absolute;
+    position: relative;
     top: 8px;
     left: 30px;
     font-size: 20px;
@@ -98,17 +102,18 @@ header{
     font-size: 17px;
     line-height: 150%;
 }
-.Tyru_img{
-    position: absolute;
-    top: 837px;
-    left: 780px;
+.Tyru_img {
+    position: relative;
+    top: 10px;
+    left: 0px;
     width: 1000px;
     border: 2px solid black;
+    background-color: gray;
 }
 .Second_section{
     margin-right: 100px;
     margin-left: 100px;
-    padding-top: 120px;
+    padding-top: 60px;
     padding-bottom: 120px;
     height: 500px;
 }
@@ -141,102 +146,47 @@ header{
     opacity: 0.7;
 }
 .Position_img{
-    position: absolute;
-    top: 1770px;
+    position: relative;
+    top: 50px;
+    left: 50px;
     width: 18px;
 }
-.Position_img_first{
-    left: 180px;
-}
-.Position_img_second{
-    left: 750px;
-}
-.Position_img_third{
-    left: 1320px;
-}
-.Turs_info_first{
-    position: absolute;
-    top: 2075px;
-    left: 153px;
+.Turs_info_least{
+    position: relative;
+    top: 290px;
+    left: 20px;
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 115%;
-}
-.Turs_info_second{
-    position: absolute;
-    top: 2075px;
-    left: 723px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 115%;
-}
-.Turs_info_third{
-    position: absolute;
-    top: 2075px;
-    left: 1290px;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 115%;
 }
 .Turs h3{
-    position: absolute;
+    position: relative;
+    top: 280px;
+    left: 20px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
     line-height: 115%;
-    top: 2040px;
-}
-.Turs_first h3{
-    position: absolute;
-    left: 153px;
-}
-.Turs_second h3{
-    position: absolute;
-    left: 723px;
-}
-.Turs_third h3{
-    position: absolute;
-    left: 1290px;
 }
 .Fav_img{
     width: 18px;
-    position: absolute;
-    top: 1770px;
-}
-.Fav_img_first{
-    left: 560px;
-}
-.Fav_img_second{
-    left: 1130px;
-}
-.Fav_img_third{
-    left: 1700px;
+    position: relative;
+    top: 50px;
+    left: 420px;
 }
 .Shit{
-    position: absolute;
-    top: 1770px;
+    position: relative;
+    top: 45px;
+    left: 35px;
     color: #fff;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 115%;
-}
-.Shit_first{
-    left: 208px;
-}
-.Shit_second{
-    left: 780px;
-}
-.Shit_third{
-    left: 1352px;
 }
 .Turs_info_span_first{
     width: 200px;
@@ -480,8 +430,8 @@ header{
     color: #fff;
 }
 .Fifth_section_divsecond img{
-    position: absolute;
-    top: 4130px;
+    position: relative;
+    top: -720px;
     left: 50%;
     height: 720px;
     width: 45%;
@@ -494,7 +444,7 @@ header{
     position: absolute;
     margin-left: 100px;
     top: 4770px;
-    width: 400px;
+    width: 425px;
     height: 50px;
     text-align: center;
     background-color: #EC5118;
@@ -524,6 +474,74 @@ header{
     height: 20px;
     background-color: #061B28;
 }
+footer{
+    height: 600px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.footer_divfirst{
+    width: 50%;
+}
+.footer_divfirst img{
+    padding-top: 80px;
+    padding-left: 50px;
+    width: 600px;
+    height: 500px;
+}
+.footer_divsecond{
+    width: 50%;
+    padding-top: 70px;
+    padding-left: 90px;
+    color: #000;
+}
+.footer_divsecond h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 115%;
+    padding-bottom: 20px;
+}
+.footer_divsecond_main_div{
+    height: 100px;
+    width: 300px;
+}
+.footer_divsecond_span{
+    position: relative;
+    top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+}
+.footer_divsecond_p{
+    position: relative;
+    top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+}
+.footer_divsecond_fourthdiv{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.footer_divsecond_seconddiv{
+    padding-top: 10px;
+}
+.footer_divsecond_imgdiv{
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
 @media screen and (min-device-width: 380px) and (max-device-width: 445px) {
     .content_main h2{
         font-family: 'Oswald', sans-serif;
@@ -547,7 +565,7 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 400px;
+        width: 380px;
         font-family: 'Oswald', sans-serif;
     }
     .content_inf{
@@ -568,11 +586,8 @@ header{
         top: 335px;
     }
     .Info_tyru h2{
-        font-family: 'Oswald', sans-serif;
-        font-style: normal;
-        font-weight: 600;
         font-size: 38px;
-        line-height: 115%;
+        width: 375px;
     }
     .Info_tyru{
         width: 400px;
@@ -585,9 +600,9 @@ header{
         height: 500px;
     }
     .Tyru_img{
-        position: absolute;
-        top: 1420px;
-        left: 20px;
+        position: relative;
+        top: 400px;
+        left: -330px;
         width: 350px;
         border: 2px solid black;
     }
@@ -620,77 +635,27 @@ header{
         width: 350px;
         opacity: 0.7;
     }
-    .Turs_first h3{
+    .Turs h3{
         position: relative;
         top: 200px;
         left: 10px;
     }
-    .Turs_second h3{
-        position: relative;
-        top: 200px;
-        left: 10px;
-    }
-    .Turs_third h3{
-        position: relative;
-        top: 200px;
-        left: 10px;
-    }
-    .Position_img_first{
+    .Position_img{
         position: relative;
         top: 20px;
         left: 20px;
     }
-    .Position_img_second{
-        position: relative;
-        top: 20px;
-        left: 20px;
-    }
-    .Position_img_third{
-        position: relative;
-        top: 20px;
-        left: 20px;
-    }
-    .Shit_first {
+    .Shit {
         position: relative;
         top: 15px;
         left: 10px;
     }
-    .Shit_second {
-        position: relative;
-        top: 15px;
-        left: 10px;
-    }
-    .Shit_third {
-        position: relative;
-        top: 15px;
-        left: 10px;
-    }
-    .Fav_img_first {
+    .Fav_img {
         position: relative;
         top: 18px;
         left: 290px;
     }
-    .Fav_img_second {
-        position: relative;
-        top: 18px;
-        left: 290px;
-    }
-    .Fav_img_third {
-        position: relative;
-        top: 18px;
-        left: 290px;
-    }
-    .Turs_info_first {
-        position: relative;
-        top: 205px;
-        left: 10px;
-    }
-    .Turs_info_second {
-        position: relative;
-        top: 205px;
-        left: 10px;
-    }
-    .Turs_info_third {
+    .Turs_info_least {
         position: relative;
         top: 205px;
         left: 10px;
@@ -808,5 +773,264 @@ header{
     }
     .Fifth_section_divsecond{
         display: none;
+    }
+    footer{
+        height: 550px;
+    }
+    .footer_divfirst img{
+        display: none;
+    }
+    .footer_divsecond{
+        width: 350px;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+}
+@media screen and (min-device-width: 446px) and (max-device-width: 550px) {
+    .content_main h2{
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        height: 200px;
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 145px;
+        display: flex;
+        align-items: center;
+        color: #FCFCFC;
+        position: absolute;
+        top: 180px;
+    }
+    .content{
+        padding-top: 35px;
+        display: flex;
+        flex-direction: column;
+    }
+    .content_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 380px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .content_inf{
+        width: 360px;
+    }
+    .Mountain_h1 h1{
+        font-size: 26px;
+    }
+    .content_partn{
+        width: 130px;
+        padding-top: 10px;
+    }
+    .Mountain_h1{
+        padding-bottom: 5px;
+    }
+    .content_main_div{
+        position: absolute;
+        top: 335px;
+    }
+    .Info_tyru h2{
+        font-size: 38px;
+        width: 440px;
+    }
+    .Info_tyru{
+        width: 400px;
+    }
+    .Info_tyru p{
+        width: 440px;
+    }
+    .First_section{
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        height: 500px;
+    }
+    .Tyru_img{
+        position: relative;
+        top: 300px;
+        left: -395px;
+        width: 400px;
+    }
+    .Second_section{
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 110px;
+        padding-bottom: 120px;
+        height: 1200px;
+    }
+    .Second_section h2{
+        padding-bottom: 40px;
+        text-align: center;
+        font-size:43px;
+        height: 50px;
+    }
+    .Popular_turs{
+        padding-top: 0px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+    }
+    .Turs{
+        height: 350px;
+        width: 400px;
+    }
+    .Background_img{
+        position: absolute;
+        height: 350px;
+        width: 400px;
+        opacity: 0.7;
+    }
+    .Turs h3{
+        position: relative;
+        top: 245px;
+        left: 10px;
+    }
+    .Position_img{
+        position: relative;
+        top: 35px;
+        left: 25px;
+    }
+    .Shit {
+        position: relative;
+        top: 30px;
+        left: 15px;
+    }
+    .Fav_img {
+        position: relative;
+        top: 35px;
+        left: 300px;
+    }
+    .Turs_info_least {
+        position: relative;
+        top: 250px;
+        left: 10px;
+    }
+    .Third_section{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 50px;
+        height: 500px;
+    }
+    .Table_info_first{
+        width: 350px;
+    }
+    .Table_info_first_height{
+        display: none;
+    }
+    .Table_info_first_level{
+        display: none;
+    }
+    .Table_info_information{
+        display: none;
+    }
+    .Table_info_second{
+        width: 350px;
+    }
+    .Table_info_third{
+        width: 350px;
+    }
+    .Table_info_fourth{
+        width: 350px;
+    }
+    .Table_info_fifth{
+        width: 350px;
+    }
+    .Table_info{
+        width: 350px;
+    }
+    .Fourth_section_h2{
+        font-size: 30px;
+    }
+    .Fourth_section_maindiv{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 50px;
+    }
+    .Fourth_section_divsecond{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .Fourth_section_divfirst{
+        width: 100%;
+        margin-right: 20px;
+    }
+    .Fourth_section_info_div {
+        width: 445px;
+    }
+    .Fourth_section_info_a {
+        width: 445px;
+    }
+    .Fifth_section{
+        padding-top: 960px;
+        height: 800px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .Fifth_section_divsecond img{
+        display: none;
+    }
+    .Fifth_section_divfirst{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 100%;
+    }
+    .Fifth_section_divfirst_button{
+        position: relative;
+        margin-left: 0px;
+        top: -100px;
+        width: 400px;
+        height: 50px;
+    }
+    .Fifth_section_divfirst h2 {
+        padding-top: 70px;
+        padding-left: 0px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .Fifth_section_divfirst p {
+        padding-left: 0px;
+        padding-top: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .Fifth_section_input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-left: 0px;
+        margin-right: 0px;
+    }
+    .Fifth_section_input_all{
+        width: 400px;
+        height: 28px;
+    }
+    .Fifth_section_divfirst_a{
+        display: flex;
+        justify-content: center;
+    }
+    .Fifth_section_divfirst_a a {
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .Fifth_section_divsecond{
+        display: none;
+    }
+    footer{
+        height: 550px;
+    }
+    .footer_divfirst img{
+        display: none;
+    }
+    .footer_divsecond{
+        width: 350px;
+        padding-left: 0px;
+        padding-top: 10px;
     }
 }
