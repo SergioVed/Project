@@ -106,9 +106,7 @@ header{
     position: relative;
     top: 10px;
     left: 0px;
-    width: 1000px;
-    border: 2px solid black;
-    background-color: gray;
+    width: 800px;
 }
 .Second_section{
     margin-right: 100px;
@@ -454,7 +452,7 @@ header{
     flex-direction: column;
     width: 50%;
     padding-left: 100px;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 .Fifth_section_input_first{
     margin-top: 40px;
@@ -473,6 +471,10 @@ header{
     margin-top: 40px;
     height: 20px;
     background-color: #061B28;
+}
+.Fifth_section_input_all{
+    width: 425px;
+    height: 26px;
 }
 footer{
     height: 600px;
@@ -840,6 +842,256 @@ footer{
     }
     .Info_tyru p{
         width: 440px;
+    }
+    .First_section{
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        height: 500px;
+    }
+    .Tyru_img{
+        position: relative;
+        top: 300px;
+        left: -395px;
+        width: 400px;
+    }
+    .Second_section{
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 110px;
+        padding-bottom: 120px;
+        height: 1200px;
+    }
+    .Second_section h2{
+        padding-bottom: 40px;
+        text-align: center;
+        font-size:43px;
+        height: 50px;
+    }
+    .Popular_turs{
+        padding-top: 0px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+    }
+    .Turs{
+        height: 350px;
+        width: 400px;
+    }
+    .Background_img{
+        position: absolute;
+        height: 350px;
+        width: 400px;
+        opacity: 0.7;
+    }
+    .Turs h3{
+        position: relative;
+        top: 245px;
+        left: 10px;
+    }
+    .Position_img{
+        position: relative;
+        top: 35px;
+        left: 25px;
+    }
+    .Shit {
+        position: relative;
+        top: 30px;
+        left: 15px;
+    }
+    .Fav_img {
+        position: relative;
+        top: 35px;
+        left: 300px;
+    }
+    .Turs_info_least {
+        position: relative;
+        top: 250px;
+        left: 10px;
+    }
+    .Third_section{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 50px;
+        height: 500px;
+    }
+    .Table_info_first{
+        width: 350px;
+    }
+    .Table_info_first_height{
+        display: none;
+    }
+    .Table_info_first_level{
+        display: none;
+    }
+    .Table_info_information{
+        display: none;
+    }
+    .Table_info_second{
+        width: 350px;
+    }
+    .Table_info_third{
+        width: 350px;
+    }
+    .Table_info_fourth{
+        width: 350px;
+    }
+    .Table_info_fifth{
+        width: 350px;
+    }
+    .Table_info{
+        width: 350px;
+    }
+    .Fourth_section_h2{
+        font-size: 30px;
+    }
+    .Fourth_section_maindiv{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 50px;
+    }
+    .Fourth_section_divsecond{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .Fourth_section_divfirst{
+        width: 100%;
+        margin-right: 20px;
+    }
+    .Fourth_section_info_div {
+        width: 445px;
+    }
+    .Fourth_section_info_a {
+        width: 445px;
+    }
+    .Fifth_section{
+        padding-top: 960px;
+        height: 800px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .Fifth_section_divsecond img{
+        display: none;
+    }
+    .Fifth_section_divfirst{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 100%;
+    }
+    .Fifth_section_divfirst_button{
+        position: relative;
+        margin-left: 0px;
+        top: -100px;
+        width: 400px;
+        height: 50px;
+    }
+    .Fifth_section_divfirst h2 {
+        padding-top: 70px;
+        padding-left: 0px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .Fifth_section_divfirst p {
+        padding-left: 0px;
+        padding-top: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .Fifth_section_input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-left: 0px;
+        margin-right: 0px;
+    }
+    .Fifth_section_input_all{
+        width: 400px;
+        height: 28px;
+    }
+    .Fifth_section_divfirst_a{
+        display: flex;
+        justify-content: center;
+    }
+    .Fifth_section_divfirst_a a {
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .Fifth_section_divsecond{
+        display: none;
+    }
+    footer{
+        height: 550px;
+    }
+    .footer_divfirst img{
+        display: none;
+    }
+    .footer_divsecond{
+        width: 350px;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+}
+@media screen and (min-device-width: 551px) and (max-device-width: 700px) {
+    .content_main h2{
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        height: 200px;
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 145px;
+        display: flex;
+        align-items: center;
+        color: #FCFCFC;
+        position: absolute;
+        top: 180px;
+    }
+    .content{
+        padding-top: 35px;
+        display: flex;
+        flex-direction: column;
+    }
+    .content_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 380px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .content_inf{
+        width: 440px;
+    }
+    .Mountain_h1 h1{
+        font-size: 26px;
+    }
+    .content_partn{
+        width: 130px;
+        padding-top: 10px;
+    }
+    .Mountain_h1{
+        padding-bottom: 5px;
+    }
+    .content_main_div{
+        position: absolute;
+        top: 335px;
+    }
+    .Info_tyru h2{
+        font-size: 38px;
+        width: 440px;
+        text-align: center;
+    }
+    .Info_tyru{
+        width: 500px;
+    }
+    .Info_tyru p{
+        width: 440px;
+        text-align: center;
     }
     .First_section{
         margin-right: 20px;
