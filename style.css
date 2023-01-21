@@ -1083,14 +1083,17 @@ footer{
     }
     .Info_tyru h2{
         font-size: 38px;
-        width: 440px;
+        width: 500px;
         text-align: center;
     }
     .Info_tyru{
         width: 500px;
     }
+    .Tyru{
+        flex-direction: column;
+    }
     .Info_tyru p{
-        width: 440px;
+        width: 500px;
         text-align: center;
     }
     .First_section{
@@ -1102,8 +1105,8 @@ footer{
     }
     .Tyru_img{
         position: relative;
-        top: 300px;
-        left: -395px;
+        top: -50px;
+        left: 0px;
         width: 400px;
     }
     .Second_section{
@@ -1118,6 +1121,9 @@ footer{
         text-align: center;
         font-size:43px;
         height: 50px;
+    }
+    .second_a_div{
+        width: 205px;
     }
     .Popular_turs{
         padding-top: 0px;
@@ -1167,32 +1173,11 @@ footer{
         margin-top: 50px;
         height: 500px;
     }
-    .Table_info_first{
-        width: 350px;
-    }
-    .Table_info_first_height{
-        display: none;
-    }
-    .Table_info_first_level{
-        display: none;
-    }
-    .Table_info_information{
-        display: none;
-    }
-    .Table_info_second{
-        width: 350px;
-    }
-    .Table_info_third{
-        width: 350px;
-    }
-    .Table_info_fourth{
-        width: 350px;
-    }
-    .Table_info_fifth{
-        width: 350px;
+    .Table_info_main{
+        width: 500px;
     }
     .Table_info{
-        width: 350px;
+        width: 500px;
     }
     .Fourth_section_h2{
         font-size: 30px;
@@ -1213,13 +1198,13 @@ footer{
         margin-right: 20px;
     }
     .Fourth_section_info_div {
-        width: 445px;
+        width: 500px;
     }
     .Fourth_section_info_a {
-        width: 445px;
+        width: 500px;
     }
     .Fifth_section{
-        padding-top: 960px;
+        padding-top: 870px;
         height: 800px;
         margin-right: 0px;
         margin-left: 0px;
@@ -1282,8 +1267,11 @@ footer{
     .footer_divfirst img{
         display: none;
     }
+    .footer_divfirst{
+        display: none;
+    }
     .footer_divsecond{
-        width: 350px;
+        width: 300px;
         padding-left: 0px;
         padding-top: 10px;
     }
