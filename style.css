@@ -18,7 +18,7 @@ header{
     display: flex;
     justify-content: space-around;
     width: 900px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald';
 }
 .content_inf{
     display: flex;
@@ -29,10 +29,18 @@ header{
 .content_inf_a{
     color: #fff;
     text-decoration: none;
+    font-size: 20px;
+}
+.content_inf_a:hover{
+    transition: 0.5s;
+    font-size: 22px;
 }
 .content_partn{
     width: 180px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald';
+}
+.content_partn p{
+    font-size: 20px;
 }
 .content_main{
     display: flex;
@@ -41,7 +49,7 @@ header{
     height: 620px;
 }
 .content_main h2{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald';
     font-style: normal;
     height: 200px;
     font-weight: 600;
@@ -63,10 +71,10 @@ header{
 }
 .content_main_div a{
     position: relative;
-    top: 8px;
-    left: 30px;
-    font-size: 20px;
-    font-family: 'Oswald', sans-serif;
+    top: 4px;
+    left: 40px;
+    font-size: 21px;
+    font-family: 'Oswald';
     font-weight: 300;
     color: white;
     text-decoration: none;
@@ -84,9 +92,10 @@ header{
 }
 .Info_tyru{
     width: 50%;
+    padding-left: 50px;
 }
 .Info_tyru h2{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: 600;
     font-size: 52px;
@@ -96,10 +105,10 @@ header{
     padding-top: 20px;
     width: 330px;
     height: 370px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 150%;
 }
 .Tyru_img {
@@ -107,6 +116,7 @@ header{
     top: 10px;
     left: 0px;
     width: 800px;
+    padding-right: 100px;
 }
 .Second_section{
     margin-right: 100px;
@@ -119,7 +129,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: 600;
     font-size: 52px;
@@ -142,6 +152,7 @@ header{
     height: 400px;
     width: 500px;
     opacity: 0.7;
+    border-radius: 2%;
 }
 .Position_img{
     position: relative;
@@ -153,7 +164,7 @@ header{
     position: relative;
     top: 290px;
     left: 20px;
-    font-family: 'Roboto';
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -163,7 +174,7 @@ header{
     position: relative;
     top: 280px;
     left: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -180,7 +191,7 @@ header{
     top: 45px;
     left: 35px;
     color: #fff;
-    font-family: 'Roboto';
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -216,7 +227,7 @@ header{
     display: flex;
     flex-direction: column;
     width: 1000px;
-    font-family: 'Roboto';
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
@@ -263,7 +274,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto';
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -278,7 +289,7 @@ header{
 }
 .Third_p p{
     padding-top: 8px;
-    font-family: 'Roboto';
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -299,7 +310,7 @@ header{
 .Fourth_section_h2{
     display: flex;
     justify-content: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: 600;
     font-size: 38px;
@@ -345,7 +356,7 @@ header{
 }
 .Fourth_section_divsecond span{
     padding-top: 10px;
-    font-family: 'Roboto';
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -353,7 +364,7 @@ header{
 }
 .Fourth_section_divsecond h3{
     padding-bottom: 5px;
-    Font-family: Roboto;
+    Font-family: 'Oswald';
     Font-style: Regular;
     Font-size: 22px;
     Line-height: 24px;
@@ -410,7 +421,7 @@ header{
     padding-left: 100px;
     padding-top: 20px;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -420,7 +431,7 @@ header{
     position: absolute;
     top: 12px;
     left: 165px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -432,7 +443,7 @@ header{
     top: -720px;
     left: 50%;
     height: 720px;
-    width: 45%;
+    width: 50%;
 }
 .Fifth_section_divfirst_span{
     position: absolute;
@@ -500,7 +511,7 @@ footer{
     color: #000;
 }
 .footer_divsecond h2{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 52px;
@@ -514,7 +525,7 @@ footer{
 .footer_divsecond_span{
     position: relative;
     top: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -523,7 +534,7 @@ footer{
 .footer_divsecond_p{
     position: relative;
     top: 15px;
-    font-family: 'Roboto';
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -591,8 +602,15 @@ footer{
         font-size: 38px;
         width: 340px;
     }
+    .Info_tyru p{
+        width: 340px;
+    }
     .Info_tyru{
-        width: 400px;
+        width: 340px;
+        text-align: center;
+    }
+    .Tyru{
+        flex-direction: column;
     }
     .First_section{
         margin-right: 0px;
@@ -603,10 +621,9 @@ footer{
     }
     .Tyru_img{
         position: relative;
-        top: 400px;
-        left: -340px;
+        top: 20px;
+        left: 0px;
         width: 330px;
-        border: 2px solid black;
     }
     .Second_section{
         margin-right: 20px;
@@ -697,6 +714,9 @@ footer{
     .Table_info{
         width: 350px;
     }
+    .Fourth_section{
+        height: 2000px;
+    }
     .Fourth_section_h2{
         font-size: 26px;
     }
@@ -722,7 +742,7 @@ footer{
         width: 340px;
     }
     .Fifth_section{
-        padding-top: 1200px;
+        padding-top: 20px;
         height: 800px;
         margin-right: 0px;
         margin-left: 0px;
@@ -834,14 +854,19 @@ footer{
         top: 335px;
     }
     .Info_tyru h2{
+        text-align: center;
         font-size: 38px;
         width: 440px;
     }
     .Info_tyru{
-        width: 400px;
+        width: 440px;
+    }
+    .Tyru{
+        flex-direction: column;
     }
     .Info_tyru p{
         width: 440px;
+        text-align: center;
     }
     .First_section{
         margin-right: 20px;
@@ -852,8 +877,8 @@ footer{
     }
     .Tyru_img{
         position: relative;
-        top: 300px;
-        left: -395px;
+        top: 20px;
+        left: 0px;
         width: 400px;
     }
     .Second_section{
@@ -944,6 +969,9 @@ footer{
     .Table_info{
         width: 350px;
     }
+    .Fourth_section{
+        height: 1850px;
+    }
     .Fourth_section_h2{
         font-size: 30px;
     }
@@ -969,7 +997,7 @@ footer{
         width: 445px;
     }
     .Fifth_section{
-        padding-top: 960px;
+        padding-top: 10px;
         height: 800px;
         margin-right: 0px;
         margin-left: 0px;
@@ -1038,7 +1066,7 @@ footer{
         padding-top: 10px;
     }
 }
-@media screen and (min-device-width: 551px) and (max-device-width: 700px) {
+@media screen and (min-device-width: 551px) and (max-device-width: 740px) {
     .content_main h2{
         font-family: 'Oswald', sans-serif;
         font-style: normal;
@@ -1179,6 +1207,9 @@ footer{
     .Table_info{
         width: 500px;
     }
+    .Fourth_section{
+        height: 1740px;
+    }
     .Fourth_section_h2{
         font-size: 30px;
     }
@@ -1204,7 +1235,7 @@ footer{
         width: 500px;
     }
     .Fifth_section{
-        padding-top: 870px;
+        padding-top: 20px;
         height: 800px;
         margin-right: 0px;
         margin-left: 0px;
@@ -1273,6 +1304,518 @@ footer{
     .footer_divsecond{
         width: 300px;
         padding-left: 0px;
+        padding-top: 10px;
+    }
+}
+@media screen and (min-device-width: 740px) and (max-device-width: 860px){
+    .content_main h2{
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        height: 200px;
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 145px;
+        display: flex;
+        align-items: center;
+        color: #FCFCFC;
+        position: absolute;
+        top: 180px;
+    }
+    .content{
+        padding-top: 35px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .content_info{
+        display: flex;
+        align-items: center;
+        width: 600px;
+        font-family: 'Oswald', sans-serif;
+        padding-left: 10px;
+    }
+    .content_inf{
+        width: 440px;
+    }
+    .Mountain_h1 h1{
+        font-size: 26px;
+    }
+    .content_partn{
+        width: 130px;
+        height: 27px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .Mountain_h1{
+        padding-bottom: 5px;
+    }
+    .content_main_div{
+        position: absolute;
+        top: 335px;
+    }
+    .Info_tyru h2{
+        font-size: 38px;
+        width: 500px;
+        text-align: center;
+    }
+    .Info_tyru{
+        width: 500px;
+    }
+    .Tyru{
+        flex-direction: column;
+    }
+    .Info_tyru p{
+        width: 500px;
+        text-align: center;
+    }
+    .First_section{
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        height: 500px;
+    }
+    .Tyru_img{
+        position: relative;
+        top: -50px;
+        left: 0px;
+        width: 460px;
+    }
+    .Second_section{
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 110px;
+        padding-bottom: 120px;
+        height: 1200px;
+    }
+    .Second_section h2{
+        padding-bottom: 40px;
+        text-align: center;
+        font-size:43px;
+        height: 50px;
+    }
+    .second_a_div{
+        width: 205px;
+    }
+    .Popular_turs{
+        padding-top: 0px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+    }
+    .Turs{
+        height: 350px;
+        width: 400px;
+    }
+    .Background_img{
+        position: absolute;
+        height: 350px;
+        width: 400px;
+        opacity: 0.7;
+    }
+    .Turs h3{
+        position: relative;
+        top: 245px;
+        left: 10px;
+    }
+    .Position_img{
+        position: relative;
+        top: 35px;
+        left: 25px;
+    }
+    .Shit {
+        position: relative;
+        top: 30px;
+        left: 15px;
+    }
+    .Fav_img {
+        position: relative;
+        top: 35px;
+        left: 300px;
+    }
+    .Turs_info_least {
+        position: relative;
+        top: 250px;
+        left: 10px;
+    }
+    .Third_section{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 50px;
+        height: 500px;
+    }
+    .Table_info_main{
+        width: 500px;
+    }
+    .Table_info{
+        width: 500px;
+    }
+    .Fourth_section{
+        height: 1700px;
+    }
+    .Fourth_section_h2{
+        font-size: 30px;
+    }
+    .Fourth_section_maindiv{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 50px;
+    }
+    .Fourth_section_divsecond{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .Fourth_section_divfirst{
+        width: 100%;
+        margin-right: 20px;
+    }
+    .Fourth_section_info_div {
+        width: 570px;
+    }
+    .Fourth_section_info_a {
+        width: 570px;
+    }
+    .Fifth_section{
+        padding-top: 20px;
+        height: 800px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .Fifth_section_divsecond img{
+        display: none;
+    }
+    .Fifth_section_divfirst{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 100%;
+    }
+    .Fifth_section_divfirst_button{
+        position: relative;
+        margin-left: 0px;
+        top: -100px;
+        width: 480px;
+        height: 50px;
+    }
+    .Fifth_section_divfirst h2 {
+        padding-top: 70px;
+        padding-left: 0px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .Fifth_section_divfirst p {
+        padding-left: 0px;
+        padding-top: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .Fifth_section_input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 50px;
+        margin-right: 0px;
+    }
+    .Fifth_section_input_all{
+        width: 480px;
+        height: 30px;
+    }
+    .Fifth_section_divfirst_a{
+        display: flex;
+        justify-content: center;
+    }
+    .Fifth_section_divfirst_a a {
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .Fifth_section_divsecond{
+        display: none;
+    }
+    footer{
+        height: 550px;
+    }
+    .footer_divfirst img{
+        display: none;
+    }
+    .footer_divfirst{
+        display: none;
+    }
+    .footer_divsecond{
+        width: 300px;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+}
+@media screen and (min-device-width: 861px) and (max-device-width: 1000px){
+    .content_main h2{
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        height: 200px;
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 145px;
+        display: flex;
+        align-items: center;
+        color: #FCFCFC;
+        position: absolute;
+        top: 180px;
+    }
+    .content{
+        padding-top: 35px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .content_info{
+        display: flex;
+        align-items: center;
+        width: 600px;
+        font-family: 'Oswald', sans-serif;
+        padding-left: 10px;
+    }
+    .content_inf{
+        width: 440px;
+    }
+    .Mountain_h1 h1{
+        font-size: 26px;
+    }
+    .content_partn{
+        width: 130px;
+        height: 27px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .Mountain_h1{
+        padding-bottom: 5px;
+    }
+    .content_main_div{
+        position: absolute;
+        top: 335px;
+    }
+    .Info_tyru h2{
+        font-size: 44px;
+        width: 500px;
+        text-align: center;
+    }
+    .Info_tyru{
+        width: 500px;
+    }
+    .Tyru{
+        flex-direction: column;
+    }
+    .Info_tyru p {
+        width: 500px;
+        height: 400px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .First_section{
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        height: 500px;
+    }
+    .Tyru_img {
+        position: relative;
+        top: -80px;
+        left: 0px;
+        width: 500px;
+    }
+    .Second_section{
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 110px;
+        padding-bottom: 120px;
+        height: 1200px;
+    }
+    .Second_section h2{
+        padding-bottom: 40px;
+        text-align: center;
+        font-size:43px;
+        height: 50px;
+    }
+    .second_a_div{
+        width: 205px;
+    }
+    .Popular_turs{
+        padding-top: 0px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+    }
+    .Turs{
+        height: 350px;
+        width: 400px;
+    }
+    .Background_img{
+        position: absolute;
+        height: 350px;
+        width: 400px;
+        opacity: 0.7;
+    }
+    .Turs h3{
+        position: relative;
+        top: 245px;
+        left: 10px;
+    }
+    .Position_img{
+        position: relative;
+        top: 35px;
+        left: 25px;
+    }
+    .Shit {
+        position: relative;
+        top: 30px;
+        left: 15px;
+    }
+    .Fav_img {
+        position: relative;
+        top: 35px;
+        left: 300px;
+    }
+    .Turs_info_least {
+        position: relative;
+        top: 250px;
+        left: 10px;
+    }
+    .Third_section{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 50px;
+        height: 500px;
+    }
+    .Table_info_main{
+        width: 500px;
+    }
+    .Table_info{
+        width: 500px;
+    }
+    .Fourth_section{
+        height: 1000px;
+    }
+    .Fourth_section_h2{
+        font-size: 34px;
+    }
+    .Fourth_section_maindiv{
+        display: flex;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 50px;
+    }
+    .Fourth_section_divsecond {
+        width: 60%;
+        padding-bottom: 20px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Fourth_section_divsecond h3{
+        width: 500px;
+    }
+    .Fourth_section_divsecond p{
+        width: 500px;
+    }
+    .Fourth_section_divsecond span{
+        display: none;
+    }
+    .Fourth_section_divsecond img {
+        width: 500px;
+    }
+    .Fourth_section_divfirst{
+        width: 30%;
+        height: 900px;
+        margin-right: 20px;
+        padding-left: 30px;
+    }
+    .Fourth_section_info_div {
+        width: 320px;
+        padding-bottom: 36px;
+        padding-top: 36px;
+    }
+    .Fourth_section_info_a {
+        width: 320px;
+    }
+    .Fifth_section{
+        padding-top: 20px;
+        height: 800px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .Fifth_section_divsecond img{
+        display: none;
+    }
+    .Fifth_section_divfirst{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 100%;
+    }
+    .Fifth_section_divfirst_button{
+        position: relative;
+        margin-left: 0px;
+        top: -100px;
+        width: 480px;
+        height: 50px;
+    }
+    .Fifth_section_divfirst h2 {
+        padding-top: 70px;
+        padding-left: 0px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .Fifth_section_divfirst p {
+        padding-left: 0px;
+        padding-top: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .Fifth_section_input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 50px;
+        margin-right: 0px;
+    }
+    .Fifth_section_input_all{
+        width: 480px;
+        height: 30px;
+    }
+    .Fifth_section_divfirst_a{
+        display: flex;
+        justify-content: center;
+    }
+    .Fifth_section_divfirst_a a {
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .Fifth_section_divsecond{
+        display: none;
+    }
+    footer{
+        height: 550px;
+    }
+    .footer_divfirst img{
+        width: 450px;
+        height: 450px;
+        padding-top: 30px;
+    }
+    .footer_divfirst{
+        width: 500px;
+    }
+    .footer_divsecond {
+        width: 300px;
+        height: 500px;
+        padding-left: 40px;
         padding-top: 10px;
     }
 }
