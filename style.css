@@ -41,6 +41,7 @@ header{
 }
 .content_partn p{
     font-size: 20px;
+    width: 140px;
 }
 .content_main{
     display: flex;
@@ -116,7 +117,6 @@ header{
     top: 10px;
     left: 0px;
     width: 800px;
-    padding-right: 100px;
 }
 .Second_section{
     margin-right: 100px;
@@ -430,7 +430,7 @@ header{
 .Fifth_section_divfirst_a a{
     position: absolute;
     top: 12px;
-    left: 165px;
+    left: 185px;
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -599,15 +599,17 @@ footer{
         top: 335px;
     }
     .Info_tyru h2{
-        font-size: 38px;
-        width: 340px;
+        font-size: 36px;
+        width: 320px;
     }
     .Info_tyru p{
-        width: 340px;
+        width: 320px;
+        font-size: 20px;
     }
     .Info_tyru{
         width: 340px;
         text-align: center;
+        padding-left: 0px;
     }
     .Tyru{
         flex-direction: column;
@@ -715,7 +717,7 @@ footer{
         width: 350px;
     }
     .Fourth_section{
-        height: 2000px;
+        height: 2100px;
     }
     .Fourth_section_h2{
         font-size: 26px;
@@ -860,6 +862,7 @@ footer{
     }
     .Info_tyru{
         width: 440px;
+        padding-left: 0px;
     }
     .Tyru{
         flex-direction: column;
@@ -1116,6 +1119,7 @@ footer{
     }
     .Info_tyru{
         width: 500px;
+        padding-left: 0px;
     }
     .Tyru{
         flex-direction: column;
@@ -1341,7 +1345,7 @@ footer{
     }
     .content_partn{
         width: 130px;
-        height: 27px;
+        height: 36px;
         padding-top: 10px;
         padding-right: 10px;
     }
@@ -1359,6 +1363,7 @@ footer{
     }
     .Info_tyru{
         width: 500px;
+        padding-left: 0px;
     }
     .Tyru{
         flex-direction: column;
@@ -1603,6 +1608,7 @@ footer{
     }
     .Info_tyru{
         width: 500px;
+        padding-left: 0px;
     }
     .Tyru{
         flex-direction: column;
