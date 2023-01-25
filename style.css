@@ -626,9 +626,9 @@ footer{
     .First_section{
         margin-right: 0px;
         margin-left: 5px;
-        padding-top: 120px;
-        padding-bottom: 120px;
-        height: 500px;
+        padding-top: 60px;
+        padding-bottom: 10px;
+        height: 700px;
     }
     .Tyru_img{
         position: relative;
@@ -639,7 +639,7 @@ footer{
     .Second_section{
         margin-right: 20px;
         margin-left: 20px;
-        padding-top: 250px;
+        padding-top: 20px;
         padding-bottom: 120px;
         height: 500px;
     }
