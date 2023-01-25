@@ -342,6 +342,15 @@ header{
     padding-bottom: 25px;
     padding-top: 25px;
 }
+/* .Fourth_section_info_div:hover{
+    transition: 0.7s;
+    background-color: #061B28;
+    color: #fff;
+}
+.Fourth_section_info_div a:hover{
+    transition: 0.7s;
+    color: #fff;
+} */
 .Fourth_section_info_div span{
     padding-left: 10px;
 }
