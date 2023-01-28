@@ -93,7 +93,7 @@ header{
 }
 .Info_tyru{
     width: 50%;
-    padding-left: 50px;
+    padding-left: 150px;
 }
 .Info_tyru h2{
     font-family: 'Oswald';
@@ -115,7 +115,7 @@ header{
 .Tyru_img {
     position: relative;
     top: 10px;
-    left: 0px;
+    left: -150px;
     width: 800px;
 }
 .Second_section{
@@ -232,6 +232,13 @@ header{
     font-weight: 500;
     font-size: 22px;
     line-height: 140%;
+}
+.Table_info_main_span{
+    width: 100px;
+}
+.Table_info_main_level{
+    position: relative;
+    left: -15px;
 }
 .Table_info_first{
     padding-bottom: 15px;
@@ -509,13 +516,13 @@ footer{
 }
 .footer_divfirst img{
     padding-top: 80px;
-    padding-left: 50px;
+    padding-left: 150px;
     width: 600px;
     height: 500px;
 }
 .footer_divsecond{
     width: 50%;
-    padding-top: 70px;
+    padding-top: 85px;
     padding-left: 90px;
     color: #000;
 }
@@ -559,7 +566,7 @@ footer{
 }
 .footer_divsecond_imgdiv{
     position: relative;
-    top: 25px;
+    top: 35px;
     display: flex;
     justify-content: space-between;
     width: 100px;
@@ -1823,6 +1830,7 @@ footer{
         width: 450px;
         height: 450px;
         padding-top: 30px;
+        padding-left: 0px;
     }
     .footer_divfirst{
         width: 500px;
