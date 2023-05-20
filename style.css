@@ -6,7 +6,7 @@ header{
     background-image: url(./img/Rectangle\ 1.jpg);
     background-size: cover;
     color: #fff;
-    height: 800px;
+    height: 900px;
 }
 .content{
     padding-top: 30px;
@@ -468,7 +468,7 @@ header{
 .Fifth_section_divfirst_button{
     position: absolute;
     margin-left: 100px;
-    top: 4770px;
+    top: 4870px;
     width: 425px;
     height: 50px;
     text-align: center;
@@ -477,6 +477,7 @@ header{
 .Fifth_section_input{
     display: flex;
     flex-direction: column;
+    -ms-flex-direction: row;
     width: 50%;
     padding-left: 100px;
     padding-top: 25px;
